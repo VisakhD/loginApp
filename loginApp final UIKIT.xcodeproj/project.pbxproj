@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		32D3581426E0CDCA005CC05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3581326E0CDCA005CC05E /* AppDelegate.swift */; };
 		32D3581626E0CDCA005CC05E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3581526E0CDCA005CC05E /* SceneDelegate.swift */; };
-		32D3581826E0CDCA005CC05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3581726E0CDCA005CC05E /* ViewController.swift */; };
 		32D3581B26E0CDCA005CC05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D3581926E0CDCA005CC05E /* Main.storyboard */; };
 		32D3581E26E0CDCA005CC05E /* loginApp_final_UIKIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32D3581C26E0CDCA005CC05E /* loginApp_final_UIKIT.xcdatamodeld */; };
 		32D3582026E0CDCB005CC05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D3581F26E0CDCB005CC05E /* Assets.xcassets */; };
 		32D3582326E0CDCB005CC05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D3582126E0CDCB005CC05E /* LaunchScreen.storyboard */; };
+		32D3582B26E0DBF8005CC05E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3582A26E0DBF8005CC05E /* HomeVC.swift */; };
+		32D3583126E0E4FC005CC05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D3583026E0E4FC005CC05E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32D3581026E0CDCA005CC05E /* loginApp final UIKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "loginApp final UIKIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D3581326E0CDCA005CC05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D3581526E0CDCA005CC05E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32D3581726E0CDCA005CC05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32D3581A26E0CDCA005CC05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D3581D26E0CDCA005CC05E /* loginApp_final_UIKIT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = loginApp_final_UIKIT.xcdatamodel; sourceTree = "<group>"; };
 		32D3581F26E0CDCB005CC05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D3582226E0CDCB005CC05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D3582426E0CDCB005CC05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D3582A26E0DBF8005CC05E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		32D3583026E0E4FC005CC05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				32D3581326E0CDCA005CC05E /* AppDelegate.swift */,
 				32D3581526E0CDCA005CC05E /* SceneDelegate.swift */,
-				32D3581726E0CDCA005CC05E /* ViewController.swift */,
+				32D3582A26E0DBF8005CC05E /* HomeVC.swift */,
+				32D3583026E0E4FC005CC05E /* ViewController.swift */,
 				32D3581926E0CDCA005CC05E /* Main.storyboard */,
 				32D3581F26E0CDCB005CC05E /* Assets.xcassets */,
 				32D3582126E0CDCB005CC05E /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D3581826E0CDCA005CC05E /* ViewController.swift in Sources */,
+				32D3583126E0E4FC005CC05E /* ViewController.swift in Sources */,
+				32D3582B26E0DBF8005CC05E /* HomeVC.swift in Sources */,
 				32D3581426E0CDCA005CC05E /* AppDelegate.swift in Sources */,
 				32D3581626E0CDCA005CC05E /* SceneDelegate.swift in Sources */,
 				32D3581E26E0CDCA005CC05E /* loginApp_final_UIKIT.xcdatamodeld in Sources */,
